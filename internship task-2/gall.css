@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image{
+    position: relative;
+    min-height: 33vh;
+    background: rgb(36, 22, 22);
+}
+
+.image h1{
+    font-size: 40px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+.image .image_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.image .image_container .imag{
+    height: 250px;
+    width: 350px;
+    border: 10px solid #fff;
+    box-shadow: 0 5px 15px rgb(0,0,0,.1);
+    overflow: hidden;
+    cursor: pointer;
+}
+.image .image_container .imag img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+
+}
+.image .image_container .imag:hover img{
+    transform: scale(1.1);
+
+}
+
+*{
+	
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+	
+	
+}
+.imageee{
+    position: relative;
+    min-height: 100vh;
+    background: rgb(36, 22, 22);
+}
+
+
+.imageee h1{
+    font-size: 40px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+.imageee .imai_conti{
+	display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+	
+	
+}
+.imageee .imai_conti .im{
+    height: 350px;
+    width: 350px;
+    border: 10px solid #fff;
+    box-shadow: 0 5px 15px rgb(0,0,0,.1);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.imageee .imai_conti .im img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+
+}
+.imageee .imai_conti .im:hover img{
+    transform: scale(1.1);
+
+}
+.imageee h1{
+
+font-size: 40px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+    color: red;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.imagee{
+    position: relative;
+    min-height: 100vh;
+    background: rgb(36, 22, 22);
+}
+
+.imagee h1{
+
+font-size: 40px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.imagee .ima_cont{
+	display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+	
+	
+}
+.imagee .ima_cont .image{
+    height: 350px;
+    width: 350px;
+    border: 10px solid #fff;
+    box-shadow: 0 5px 15px rgb(0,0,0,.1);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.imagee .ima_cont .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+
+}
+.imagee .ima_cont .image:hover img{
+    transform: scale(1.1);
+
+}
+.chan{
+    position: relative;
+    min-height: 100vh;
+    background: rgb(36, 22, 22);
+}
+
+.chan h1{
+
+font-size: 40px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+    color: red;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+.chan .ch_img{
+	display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+	
+	
+}
+.chan .ch_img .imi{
+    height: 350px;
+    width: 350px;
+    border: 10px solid #fff;
+    box-shadow: 0 5px 15px rgb(0,0,0,.1);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.chan .ch_img .imi img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+
+}
+.chan .ch_img .imi:hover img{
+    transform: scale(1.1);
+
+}
