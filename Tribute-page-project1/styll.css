@@ -1,0 +1,207 @@
+body{
+    background-color: black;
+}
+nav{
+    height: 65px;
+    justify-content: center;
+    background: tomato; 
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+img{
+    width: 1340px;
+    height: 500px;
+}
+.one{
+    position: absolute;
+    top: 54%;
+    left: 20%;
+    font-size: 25px;
+}
+.blink{
+    animation-duration: 1000ms;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+@keyframes blink{
+    from{
+        opacity: 2;
+        color: orange;
+    }
+    to{
+        opacity: 1;
+        color: yellow;
+    }
+}
+
+.pos{
+    position: absolute;
+    top: 99%;
+    height: 330px;
+    left: 4%;
+    width: 92%;
+    background-color: lightgray;
+    text-align: center;
+    color: black;
+    border: 1px solid rgb(104, 8, 104);
+}
+h2{
+    color: darkblue;
+}
+strong{
+    text-align: center;
+}
+.box{
+     background-color: rgb(250, 226, 195);
+     color: brown;
+     border: 1px solid rgb(104, 8, 104);
+     padding: 40px;
+     text-align: center;
+     font-size:25px;
+     position: absolute;
+     top: 155%;
+     width: 88%;
+     height: 800px;
+     left: 3%
+
+
+}
+
+#first{ 
+    text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    color: black;
+}
+.two{
+    position: absolute;
+    top: 60%;
+    font-size: 25px;
+    left: 15%;
+}
+
+iframe{
+    position: absolute;
+    left: 48%;
+}
+.boxx{
+    background-color: lightgrey;
+    color: darkblue;
+    border: 1px solid rgb(104, 8, 104);
+    padding: 40px;
+    text-align: center;
+    font-size:25px;
+    position: absolute;
+    top: 300%;
+    width: 90%;
+    height: 2000px;
+    left: 2%
+
+
+}
+
+#second{
+    text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    color: black;
+}
+#sec{
+    text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    color: black;
+    
+}
+.boxxx{
+    background-color:  rgb(250, 226, 195);
+    color: brown;
+    border: 1px solid rgb(104, 8, 104);
+    padding: 40px;
+    text-align: center;
+    font-size:25px;
+    position: absolute;
+    top: 625%;
+    width: 92%;
+    height: 400px;
+    left: 1%
+}
+#third{
+    text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    color: black;
+} 
+.image{
+    position: absolute;
+    width: 94%;
+   height: 516px;
+}
+.img_modi{
+    position: absolute;
+    width: 73%;
+   height: 493px;
+   left: 14%;
+}
+.vidi{
+    position: absolute;
+    left: 55%;
+    border: 2px solid black;
+}
+
+.forth{
+    background-color:white;
+    font-size:20px;
+    color:black;
+    font-family:Georgia, Serif"
+}
+.boxxxx{
+    background-color:  rgb(250, 226, 195);
+    color: brown;
+    border: 1px solid rgb(104, 8, 104);
+    padding: 40px;
+    position: absolute;
+    top: 780%;
+    width: 92%;
+    height: 456px;
+    left: 1%
+}
+
+.maindiv{
+
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    left: 50%;
+    top: 740%;
+    transform: translate(-50%, -50%);
+    background-image: url('bbbp.jpg');
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px 10px white;
+    animation:slider 9s infinite linear;
+    border: 1px solid black;
+}
+@keyframes slider{
+
+    15%{background-image: url('econ.jpg')}
+
+   35%{background-image: url('jan.jpg')}
+   
+   55%{background-image: url('grow.jpg')}
+
+   69%{background-image: url('ayo.webp')}
+
+   78%{background-image: url('cur.webp')}
+
+   89%{background-image: url('gst.webp')}
+
+   97%{background-image: url('kashmir.webp')}
+
+   110%{background-image: url('mus.webp')}
+
+  
+}
